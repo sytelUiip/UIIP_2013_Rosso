@@ -67,7 +67,7 @@ END trigger1;
 
 CREATE or REPLACE
 TRIGGER trigger2
-AFTER DELETE OR UPDATE OF username ON account
+AFTER UPDATE OF username ON account
 FOR EACH ROW
 BEGIN
 	UPDATE notizia SET autore= :new.username WHERE autore= :old.username;
