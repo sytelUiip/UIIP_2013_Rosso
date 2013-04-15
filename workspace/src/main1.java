@@ -1,13 +1,13 @@
 
-public class Prova {
+public class main1 {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println("ok");
-System.out.println("ko");
+
+		System.out.println("ok");
 	}
 
 }
