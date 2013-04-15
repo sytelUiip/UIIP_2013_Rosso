@@ -47,7 +47,7 @@ CREATE TABLE notizia (
 	ultimo_digitatore varchar2(30),
 	data_creazione date default CURRENT_TIMESTAMP NOT NULL,
 	data_trasmissione date,
-	testo NCLOB,
+	testo CLOB,
 	lunghezza_testo number(4),
 	CONSTRAINT notizia_pk PRIMARY KEY (id),
 	CONSTRAINT notizia_fk FOREIGN KEY (ultimo_digitatore) REFERENCES account(username)
