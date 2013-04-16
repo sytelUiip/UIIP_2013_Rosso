@@ -14,6 +14,7 @@ import com.editoriale.proc.Login;
 public class testQuery {
 	private static Connection conn;
 	private static String user_session = "";
+	private static String ruolo_session = "";
 
 	public static void menu() throws IOException, SQLException {
 		InputStreamReader input = new InputStreamReader(System.in);
@@ -35,7 +36,7 @@ public class testQuery {
 			System.out.println();
 			System.out.print("Inserire la password: ");
 			String password = input1.readLine();
-			String risultato = Login.execute(2, conn, username, password, user_session);
+			String risultato = Login.execute(5, conn, username, password, user_session, ruolo_session);
 			System.out.println(risultato);
 			menu();
 		case '0':
@@ -49,10 +50,9 @@ public class testQuery {
 
 	public static void main(String[] args) throws SQLException, IOException {
 		conn = dbConnector.getConnection();
-		String stampars;
 		menu();
-		stampars = ListaAccount.execute(5, conn);
+		String stampars = ListaAccount.execute(5, conn);
 		System.out.println(stampars);
-		conn.close();
+		dbConnector.closeConnection(conn);
 	}
 }

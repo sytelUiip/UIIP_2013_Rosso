@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import oracle.jdbc.OracleTypes;
 
 public class Login {
-	public static String execute(float price, Connection conn, String username, String password, String user_session)
+	public static String execute(float price, Connection conn, String username, String password, String user_session, String ruolo_session)
 			throws SQLException {
 		String query = "{call LOGIN(?,?,?)}";
 		CallableStatement stmt = conn.prepareCall(query);
@@ -27,6 +27,7 @@ public class Login {
 			rs.getString("NOME") + " "
 			+ rs.getString("COGNOME");
 			user_session = rs.getString("USERNAME");
+			ruolo_session = rs.getString("NOME_GRUPPO");
 		}
 		rs.close();
 		stmt.close();
