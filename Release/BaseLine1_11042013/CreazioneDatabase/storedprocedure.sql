@@ -216,3 +216,14 @@ BEGIN
 END TRASMETTI_NOTIZIA;
 /
  
+
+  CREATE OR REPLACE PROCEDURE "EDITORIALE"."CARICA_FUNZIONALITA" 
+(
+  P_NOME_GRUPPO IN VARCHAR2
+, P_CURSOR OUT SYS_REFCURSOR  
+) AS 
+BEGIN
+  OPEN P_CURSOR FOR 
+        SELECT * FROM funzionalita f, funzionalita_gruppo g WHERE f.sigla_funzionalita=g.sigla_funzionalita and g.nome_gruppo=P_NOME_GRUPPO;
+END CARICA_FUNZIONALITA;
+/
