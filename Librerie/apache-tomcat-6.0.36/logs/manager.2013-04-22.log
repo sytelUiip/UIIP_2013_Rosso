@@ -1,0 +1,56 @@
+apr 22, 2013 11:14:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+apr 22, 2013 11:14:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+apr 22, 2013 11:14:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:14:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/PresLayerEd'
+apr 22, 2013 11:14:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:14:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/GestioneLogin'
+apr 22, 2013 11:14:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:14:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/PresentationLayer'
+apr 22, 2013 11:14:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:14:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/WebSBLGestLogin'
+apr 22, 2013 11:14:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:14:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/axis2'
+apr 22, 2013 11:14:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:14:56 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/docs'
+apr 22, 2013 11:14:56 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:15:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/examples'
+apr 22, 2013 11:15:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:15:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/host-manager'
+apr 22, 2013 11:15:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:15:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/'
+apr 22, 2013 11:15:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:18:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+apr 22, 2013 11:18:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+apr 22, 2013 11:18:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:23:24 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+apr 22, 2013 11:23:24 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+apr 22, 2013 11:23:24 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:23:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
