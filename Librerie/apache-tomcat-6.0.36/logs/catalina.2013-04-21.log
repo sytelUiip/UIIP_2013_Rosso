@@ -1,0 +1,100 @@
+apr 21, 2013 5:15:52 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\app\Emanuela\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Diskeeper Corporation\ExpressCache\; C:\Program Files\Java\jdk1.7.0_11;C:\Program Files\Java\jdk1.7.0_11\bin;.
+apr 21, 2013 5:15:52 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:GestioneLogin' did not find a matching property.
+apr 21, 2013 5:15:52 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:PresentationLayer' did not find a matching property.
+apr 21, 2013 5:15:52 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:WebSBLGestLogin' did not find a matching property.
+apr 21, 2013 5:15:52 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:PresLayerEd' did not find a matching property.
+apr 21, 2013 5:15:53 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+apr 21, 2013 5:15:53 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 626 ms
+apr 21, 2013 5:15:53 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+apr 21, 2013 5:15:53 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.36
+apr 21, 2013 5:15:59 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+apr 21, 2013 5:15:59 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+apr 21, 2013 5:15:59 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive axis2.war
+apr 21, 2013 5:16:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+apr 21, 2013 5:16:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+apr 21, 2013 5:16:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+apr 21, 2013 5:16:01 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+apr 21, 2013 5:16:01 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+apr 21, 2013 5:16:01 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/22  config=null
+apr 21, 2013 5:16:01 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8216 ms
+apr 21, 2013 5:20:48 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+apr 21, 2013 5:20:49 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+apr 21, 2013 5:20:49 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/axis2] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@4b2ea730]) and a value of type [long[]] (value [[J@63e266df]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+apr 21, 2013 5:20:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/WebSBLGestLogin] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+apr 21, 2013 5:20:49 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/WebSBLGestLogin] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@ddc7a0d]) and a value of type [long[]] (value [[J@5d0f297]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+apr 21, 2013 5:20:49 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7bb98fb1]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@5388ecec]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+apr 21, 2013 5:20:49 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@427aa4cc]) and a value of type [long[]] (value [[J@1d96f2d]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+apr 21, 2013 5:20:49 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7bb98fb1]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@5388ecec]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+apr 21, 2013 5:20:49 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@427aa4cc]) and a value of type [long[]] (value [[J@6a11f44d]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+apr 21, 2013 5:20:49 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7bb98fb1]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@5388ecec]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+apr 21, 2013 5:20:49 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@427aa4cc]) and a value of type [long[]] (value [[J@40be21a2]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+apr 21, 2013 5:20:49 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+apr 21, 2013 5:53:15 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\app\Emanuela\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Diskeeper Corporation\ExpressCache\; C:\Program Files\Java\jdk1.7.0_11;C:\Program Files\Java\jdk1.7.0_11\bin;.
+apr 21, 2013 5:53:15 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:GestioneLogin' did not find a matching property.
+apr 21, 2013 5:53:15 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:PresentationLayer' did not find a matching property.
+apr 21, 2013 5:53:15 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:WebSBLGestLogin' did not find a matching property.
+apr 21, 2013 5:53:15 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:PresLayerEd' did not find a matching property.
+apr 21, 2013 5:53:15 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+apr 21, 2013 5:53:15 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 563 ms
+apr 21, 2013 5:53:15 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+apr 21, 2013 5:53:15 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.36
+apr 21, 2013 5:53:18 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+apr 21, 2013 5:53:19 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+apr 21, 2013 5:53:19 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive axis2.war
+apr 21, 2013 5:53:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+apr 21, 2013 5:53:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+apr 21, 2013 5:53:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+apr 21, 2013 5:53:20 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+apr 21, 2013 5:53:20 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+apr 21, 2013 5:53:20 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/17  config=null
+apr 21, 2013 5:53:20 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4367 ms
