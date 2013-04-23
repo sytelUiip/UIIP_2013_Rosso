@@ -13,17 +13,30 @@
             <result-type name="tiles"
                 class="org.apache.struts2.views.tiles.TilesResult" />
         </result-types>
+        <interceptors>
+    		<interceptor class="com.reply.editoriale.interceptors.LoginInterceptor" name="loginInterceptor" />
+    		<interceptor-stack name="loginStack">
+    			<interceptor-ref name="loginInterceptor" />
+    			<interceptor-ref name="defaultStack" />
+    		</interceptor-stack>
+    	</interceptors>
+    	 <global-results>
+        	<result name="login" type="tiles">/login.tiles</result>
+        </global-results>
         <action name="login"
             class="com.reply.editoriale.action.LoginAction">
             <result name="success" type="tiles">/welcome.tiles</result>
             <result name="error" type="tiles">/login.tiles</result>
             <result name="input" type="tiles">/login.tiles</result>
+            <result name="login" type="tiles">/login.tiles</result>
         </action>
         <action name="logout"
             class="com.reply.editoriale.action.logoutAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
             <result name="success" type="tiles">/login.tiles</result>
         </action>
         <action name="insertAccount" class="com.reply.editoriale.action.InsertNewAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
 			 <interceptor-ref name="store">
            		<param name="operationMode">STORE</param>
        		</interceptor-ref>
@@ -37,10 +50,12 @@
    		</action>
    		<action name="viewInsertAccount"
             class="com.reply.editoriale.action.ViewInsertAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
             <result name="success" type="tiles">/insertAccountForm.tiles</result>
         </action>
         <action name="viewListaAccount"
             class="com.reply.editoriale.action.ViewListaAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
             <interceptor-ref name="store">
            <param name="operationMode">RETRIEVE</param>
        	</interceptor-ref>
@@ -50,6 +65,7 @@
        	</action>
        	<action name="cancellaAccount"
             class="com.reply.editoriale.action.DeleteAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
             <interceptor-ref name="store">
            		<param name="operationMode">STORE</param>
        		</interceptor-ref>
@@ -64,6 +80,7 @@
    		</action>
    		<action name="viewDettagliAccount"
             class="com.reply.editoriale.action.DettagliAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
             <interceptor-ref name="store">
            		<param name="operationMode">STORE</param>
        		</interceptor-ref>
@@ -76,6 +93,7 @@
         </action>
         <action name="viewUpdateAccount"
             class="com.reply.editoriale.action.ViewUpdateAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
             <interceptor-ref name="store">
            		<param name="operationMode">STORE</param>
        		</interceptor-ref>
@@ -88,6 +106,7 @@
         </action>
         <action name="updateAccount"
             class="com.reply.editoriale.action.UpdateAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
             <interceptor-ref name="store">
            		<param name="operationMode">STORE</param>
        		</interceptor-ref>
@@ -102,11 +121,13 @@
         
         <action name="gestoreAccount"
             class="com.reply.editoriale.action.GestRuoloAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
             <result name="success" type="tiles">/gestoreAccount.tiles</result>
             <result name="error" type="tiles">/gestoreAccount.tiles</result>
         </action>
         <action name="aggiungiRuoloAccount" method="aggiungiRuoloGiornalista"
             class="com.reply.editoriale.action.RuoliAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
             <interceptor-ref name="store">
            		<param name="operationMode">STORE</param>
        		</interceptor-ref>
@@ -118,6 +139,7 @@
         </action>
          <action name="rimuoviRuoloAccount" method="rimuoviRuoloGiornalista"
             class="com.reply.editoriale.action.RuoliAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
             <interceptor-ref name="store">
            		<param name="operationMode">STORE</param>
        		</interceptor-ref>
