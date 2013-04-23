@@ -23,7 +23,7 @@
     <p class="sideBarTitle" style="padding-left: 10px;">Contatti</p>
     <span class="sideBarText" style="padding-top: 10px;">
     Gruppo Rosso  <br/>
-    UIIP - Replay Academy
+    UIIP - Reply Academy
     Ariano Irpino (AV)  <br/>
     <b>Componenti</b>:</br>
     <a href="">Martella Silvio</a></br>

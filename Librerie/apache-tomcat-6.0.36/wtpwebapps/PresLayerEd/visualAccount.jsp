@@ -12,7 +12,7 @@
     <tr><td>Sigla redazione</td><td>${utente_cercato.siglaRedazione}</td></tr>
    	<tr><td>Ruolo</td>
    		<td>
-   				<s:iterator value="#session['ruoli_utente']" var="ruoli">
+   				<s:iterator value="#request['ruoli_utente']" var="ruoli">
    					${ruoli}</br>
    				</s:iterator>
    		</td>
