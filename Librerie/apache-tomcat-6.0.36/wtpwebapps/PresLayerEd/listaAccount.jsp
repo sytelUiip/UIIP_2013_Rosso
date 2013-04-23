@@ -5,16 +5,16 @@
 	<h1>Lista Account Registrati</h1>
 	<s:actionerror />
 	<s:actionmessage/>
-	<s:if test="#session['lista_utenti'] != null">
-   <table border="0" cellspacing="5px" cellpadding="15px" style="border:1px solid #000; margin-bottom:40px;">
-    <tr>
+	<s:if test="#request['lista_utenti'] != null">
+   <table id="lista_acc" border="0" cellspacing="5px" cellpadding="15px" style="border:1px solid #000; margin-bottom:40px;">
+    <tr style="background-color: #EEDFE0;">
     	<th>Nome</th>
    		<th>Cognome</th>
    		<th style="border-right:1px solid rgb( 153, 153, 153 );">Username</th>
    	</tr>
    	
-   	<s:iterator value="#session['lista_utenti']" var="utenti_reg">
-   	 	<tr>
+   	<s:iterator value="#request['lista_utenti']" var="utenti_reg">
+   	 	<tr style="border-bottom:1px solid rgb( 153, 153, 153 );">
 <!--    	 		<td> -->
 <%--    	 			<s:property value="%{#funzioni.username}"/> --%>
 <!--    	 		</td> -->
@@ -24,13 +24,13 @@
 <!--    	 		<td> -->
 <%--    	 			<s:property value="%{#funzioni.cognome}"/> --%>
 <!--    	 		</td> -->
-			<td>
+			<td style="border-bottom:1px solid rgb( 153, 153, 153 );">
    	 			${utenti_reg.nome} 
    	 		</td>
-   	 		<td>
+   	 		<td style="border-bottom:1px solid rgb( 153, 153, 153 );">
    	 			${utenti_reg.cognome} 
    	 		</td>
-   	 		<td style="border-right:1px solid rgb( 153, 153, 153 );">
+   	 		<td style="border-right:1px solid rgb( 153, 153, 153 ); border-bottom:1px solid rgb( 153, 153, 153 );">
    	 			${utenti_reg.username} 
    	 		</td>
 <!--    	 		<td> -->
@@ -42,17 +42,17 @@
 <!--    	 		<td> -->
 <%--    	 			<s:a href="cancellaAccount.action?username=${utenti_reg.username}">Cancella</s:a> --%>
 <!--    	 		</td> -->
-   	 		<td>
+   	 		<td style="border-bottom:1px solid rgb( 153, 153, 153 );">
    	 			<s:a href="viewDettagliAccount.action?username=%{#utenti_reg.username}">Dettagli</s:a>
    	 		</td>
-   	 		<td>
+   	 		<td style="border-bottom:1px solid rgb( 153, 153, 153 );">
    	 			<s:a href="viewUpdateAccount.action?username=%{#utenti_reg.username}">Modifica</s:a>
    	 		</td>
-   	 		<td>
+   	 		<td style="border-bottom:1px solid rgb( 153, 153, 153 );">
    	 			<s:if test="%{#utenti_reg.stato} == 'C'"><s:a href="cancellaAccount.action?username=%{#utenti_reg.username}" disabled="true">Cancella</s:a></s:if>
    	 			<s:else><s:a href="cancellaAccount.action?username=%{#utenti_reg.username}">Cancella</s:a></s:else>
    	 		</td>
-   	 		<td>
+   	 		<td style="border-bottom:1px solid rgb( 153, 153, 153 );">
    	 			<s:a href="gestoreAccount.action?username=%{#utenti_reg.username}">Gestisci Ruoli</s:a>
    	 		</td>
    	 		

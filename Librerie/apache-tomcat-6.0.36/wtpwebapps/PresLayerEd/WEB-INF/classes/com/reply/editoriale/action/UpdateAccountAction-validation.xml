@@ -22,11 +22,23 @@
             <param name="trim">true</param>
             <message key="errors.required" />
         </field-validator>
+         <field-validator type="stringlength">
+            <param name="minLength">1</param>
+            <param name="maxLength">3</param>
+            <param name="trim">true</param>
+            <message key="error.length"/>
+        </field-validator>
     </field>
     <field name="sigla_giornalista">
         <field-validator type="requiredstring">
             <param name="trim">true</param>
             <message key="errors.required" />
+        </field-validator>
+         <field-validator type="stringlength">
+            <param name="minLength">1</param>
+            <param name="maxLength">3</param>
+            <param name="trim">true</param>
+            <message key="error.length"/>
         </field-validator>
     </field>
 </validators>
