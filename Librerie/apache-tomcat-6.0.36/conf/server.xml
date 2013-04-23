@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="C:\Users\Emanuela\Documents\GitHub\UIIP_2013_Rosso\Librerie\apache-tomcat-6.0.36\wtpwebapps\GestioneLogin" path="/GestioneLogin" reloadable="true" source="org.eclipse.jst.jee.server:GestioneLogin"/><Context docBase="C:\Users\Emanuela\Documents\GitHub\UIIP_2013_Rosso\Librerie\apache-tomcat-6.0.36\wtpwebapps\PresentationLayer" path="/PresentationLayer" reloadable="true" source="org.eclipse.jst.jee.server:PresentationLayer"/><Context docBase="C:\Users\Emanuela\Documents\GitHub\UIIP_2013_Rosso\Librerie\apache-tomcat-6.0.36\wtpwebapps\WebSBLGestLogin" path="/WebSBLGestLogin" reloadable="true" source="org.eclipse.jst.jee.server:WebSBLGestLogin"/><Context docBase="C:\Users\Emanuela\Documents\GitHub\UIIP_2013_Rosso\Librerie\apache-tomcat-6.0.36\wtpwebapps\PresLayerEd" path="/PresLayerEd" reloadable="true" source="org.eclipse.jst.jee.server:PresLayerEd"/></Host>
+      <Context docBase="C:\Users\Emanuela\Documents\GitHub\UIIP_2013_Rosso\Librerie\apache-tomcat-6.0.36\wtpwebapps\GestioneLogin" path="/GestioneLogin" reloadable="true" source="org.eclipse.jst.jee.server:GestioneLogin"/><Context docBase="C:\Users\Emanuela\Documents\GitHub\UIIP_2013_Rosso\Librerie\apache-tomcat-6.0.36\wtpwebapps\PresentationLayer" path="/PresentationLayer" reloadable="true" source="org.eclipse.jst.jee.server:PresentationLayer"/></Host>
     </Engine>
   </Service>
 </Server>
