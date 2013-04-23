@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="BlEd">
+        <wb-resource deploy-path="/" source-path="/src"/>
+        <dependent-module archiveName="DaoIntEd.jar" deploy-path="/" handle="module:/resource/DaoIntEd/DaoIntEd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="DTOEd.jar" deploy-path="/" handle="module:/resource/DTOEd/DTOEd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="BliEd.jar" deploy-path="/" handle="module:/resource/BliEd/BliEd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="DaoEd.jar" deploy-path="/" handle="module:/resource/DaoEd/DaoEd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc6.jar" deploy-path="/" handle="module:/classpath/lib/C:/eclipseJunoRS2/LibreriaServer/ojdbc6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
