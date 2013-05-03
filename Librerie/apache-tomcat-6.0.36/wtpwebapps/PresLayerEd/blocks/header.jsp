@@ -19,7 +19,7 @@
 
     <div class="subHeader">
     		<s:if test="%{#session['utente_loggato'] != null}"> 
- 				<h3 style="vertical-align: bottom; text-align: left;">Benvenuto ${utente_loggato.nome} ${utente_loggato.cognome}! <spam style="margin-left:1080px;"><s:a href="logout.action">Logout</s:a></h3>	
+ 				<h3 style="vertical-align: bottom; text-align: left;"><s:text name = "benvenuto"/> ${utente_loggato.nome} ${utente_loggato.cognome}!(<s:a href="logout.action">Logout</s:a>)</h3>		
  			</s:if>
     </div>
 </div>

@@ -1,0 +1,45 @@
+[ WARN] 2013-05-03 23:23:15 (AxisAdminServlet.java:init:39)
+Web application uses org.apache.axis2.transport.http.AxisAdminServlet; please update web.xml to use org.apache.axis2.webapp.AxisAdminServlet instead
+
+[ INFO] 2013-05-03 23:23:15 (ClusterBuilder.java:buildCluster:63)
+Clustering has been disabled
+
+[ INFO] 2013-05-03 23:23:15 (ModuleDeployer.java:deploy:82)
+Deploying module: addressing-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/addressing-1.6.2.mar
+
+[ INFO] 2013-05-03 23:23:15 (ModuleDeployer.java:deploy:82)
+Deploying module: metadataExchange-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/mex-1.6.2.mar
+
+[ INFO] 2013-05-03 23:23:15 (ModuleDeployer.java:deploy:82)
+Deploying module: mtompolicy-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/mtompolicy-1.6.2.mar
+
+[ INFO] 2013-05-03 23:23:15 (ModuleDeployer.java:deploy:82)
+Deploying module: ping-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/ping-1.6.2.mar
+
+[ INFO] 2013-05-03 23:23:15 (ModuleDeployer.java:deploy:82)
+Deploying module: script-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/scripting-1.6.2.mar
+
+[ INFO] 2013-05-03 23:23:15 (ModuleDeployer.java:deploy:82)
+Deploying module: soapmonitor-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/soapmonitor-1.6.2.mar
+
+[ INFO] 2013-05-03 23:23:16 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: GestoreAccountServ - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/GestoreAccountServ/
+
+[ INFO] 2013-05-03 23:23:16 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: GestoreLogin - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/GestoreLogin/
+
+[ INFO] 2013-05-03 23:23:16 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: GestoreNotiziaBatch - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/GestoreNotiziaBatch/
+
+[ INFO] 2013-05-03 23:23:16 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: gestoreNotiziaS - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/gestoreNotiziaS/
+
+[ INFO] 2013-05-03 23:23:16 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: GestoreNotiziaServ - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/GestoreNotiziaServ/
+
+[ INFO] 2013-05-03 23:23:16 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: version.aar - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/version.aar
+
+[ WARN] 2013-05-03 23:23:16 (OnDemandLogger.java:warn:165)
+No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+

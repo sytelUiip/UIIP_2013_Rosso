@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation"
+        value="false" />
+    <constant name="struts.devMode" value="false" />
+    <constant name="struts.custom.i18n.resources" value="ApplicationResources" />
+    <package name="default" extends="struts-default" namespace="/">
+		<result-types>
+            <result-type name="tiles"
+                class="org.apache.struts2.views.tiles.TilesResult" />
+        </result-types>
+        <interceptors>
+    		<interceptor class="com.reply.editoriale.interceptors.LoginInterceptor" name="loginInterceptor" />
+    		<interceptor-stack name="loginStack">
+    			<interceptor-ref name="loginInterceptor" />
+    			<interceptor-ref name="defaultStack" />
+    		</interceptor-stack>
+    	</interceptors>
+    	 <global-results>
+        	<result name="login" type="tiles">/login.tiles</result>
+        </global-results>
+        <action name="login"
+            class="com.reply.editoriale.action.LoginAction">
+<!--             <result name="success" type="tiles">/welcome.tiles</result> -->
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+   				<result name="success" type="redirectAction">
+           			<param name="actionName">viewListaNotizie.action?pag=1</param>
+       			</result>
+            <result name="error" type="tiles">/login.tiles</result>
+            <result name="input" type="tiles">/login.tiles</result>
+            <result name="login" type="tiles">/login.tiles</result>
+        </action>
+        <action name="locale"
+            class="com.reply.editoriale.action.LocaleAction">
+   				<result name="success">/index.jsp</result>
+     	</action> 
+        <action name="logout"
+            class="com.reply.editoriale.action.logoutAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <result name="success" type="tiles">/login.tiles</result>
+            <result name="error" type="tiles">/login.tiles</result>
+        </action>
+        <action name="insertAccount" class="com.reply.editoriale.action.InsertNewAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+			 <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+   				<result name="success" type="redirectAction">
+           			<param name="actionName">viewListaAccount.action</param>
+       			</result>
+       			<result name="error" type="tiles">/insertAccountForm.tiles</result>
+       			<result name="input" type="tiles">/insertAccountForm.tiles</result>
+   		</action>
+   		<action name="viewInsertAccount"
+            class="com.reply.editoriale.action.ViewInsertAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <result name="success" type="tiles">/insertAccountForm.tiles</result>
+        </action>
+        <action name="viewListaAccount"
+            class="com.reply.editoriale.action.ViewListaAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           <param name="operationMode">RETRIEVE</param>
+       	</interceptor-ref>
+   	   	<interceptor-ref name="defaultStack"></interceptor-ref>
+            <result name="success" type="tiles">/listaAccount.tiles</result>
+            <result name="input" type="redirect">viewListaAccount.action</result>
+            <result name="error" type="redirect">/welcome.tiles</result>
+       	</action>
+       	<action name="cancellaAccount"
+            class="com.reply.editoriale.action.DeleteAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+   				<result name="success" type="redirectAction">
+           			<param name="actionName">viewListaAccount.action</param>
+       			</result>
+       			<result name="error" type="redirectAction">
+       				<param name="actionName">viewListaAccount.action</param>
+       			</result>
+       			<result name="logout" type="redirectAction">
+       				<param name="actionName">logout.action</param>
+       			</result>
+   		</action>
+   		<action name="viewDettagliAccount"
+            class="com.reply.editoriale.action.DettagliAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="error" type="redirectAction">
+       				<param name="actionName">viewListaAccount.action</param>
+       			</result>
+            <result name="success" type="tiles">/visualizzaAccount.tiles</result>
+        </action>
+        <action name="viewUpdateAccount"
+            class="com.reply.editoriale.action.ViewUpdateAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="error" type="redirectAction">
+       				<param name="actionName">viewListaAccount.action</param>
+       			</result>
+            <result name="success" type="tiles">/modificaAccountForm.tiles</result>
+        </action>
+        <action name="updateAccount"
+            class="com.reply.editoriale.action.UpdateAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="success" type="redirectAction">
+       				<param name="actionName">viewListaAccount.action</param>
+       			</result>
+            	<result name="error" type="tiles">/modificaAccountForm.tiles</result>
+            	<result name="input" type="tiles">/modificaAccountForm.tiles</result>
+        </action>
+        
+        <action name="gestoreAccount"
+            class="com.reply.editoriale.action.GestRuoloAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <result name="success" type="tiles">/gestoreAccount.tiles</result>
+            <result name="error" type="tiles">/gestoreAccount.tiles</result>
+        </action>
+        <action name="aggiungiRuoloAccount" method="aggiungiRuoloGiornalista"
+            class="com.reply.editoriale.action.RuoliAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="success" type="redirectAction">
+       				<param name="actionName">viewListaAccount.action</param>
+       			</result>
+       			<result name="error" type="tiles">/welcome.tiles</result>
+        </action>
+         <action name="rimuoviRuoloAccount" method="rimuoviRuoloGiornalista"
+            class="com.reply.editoriale.action.RuoliAccountAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="success" type="redirectAction">
+       				<param name="actionName">viewListaAccount.action</param>
+       			</result>
+       			<result name="error" type="tiles">/welcome.tiles</result>
+        </action>
+        <action name="insertNotizia" class="com.reply.editoriale.action.InsertNewNotiziaAction">
+        	<interceptor-ref name="loginStack"></interceptor-ref>
+        		<result name="success" type="tiles">/viewNotizia.tiles</result>
+       			<result name="error" type="tiles">/insertNotiziaForm.tiles</result>
+       			<result name="input" type="tiles">/insertNotiziaForm.tiles</result>
+        </action>
+        <action name="viewinsertNotizia" class="com.reply.editoriale.action.ViewInsertNotiziaAction">
+        	<interceptor-ref name="loginStack"></interceptor-ref>
+        		<result name="success" type="tiles">/insertNotiziaForm.tiles</result>
+        </action> 
+         <action name="viewListaNotizie"
+            class="com.reply.editoriale.action.ViewListaNotizia">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           <param name="operationMode">RETRIEVE</param>
+       	</interceptor-ref>
+   	   	<interceptor-ref name="defaultStack"></interceptor-ref>
+            <result name="success" type="tiles">/listaNotizie.tiles</result>
+            <result name="input" type="redirect">viewListaNotizie.action</result>
+            <result name="error" type="tiles">/listaNotizie.tiles</result>
+       	</action>
+       	<action name="viewNotizia"
+            class="com.reply.editoriale.action.ViewNotiziaAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="error" type="redirectAction">
+       				<param name="actionName">viewListaNotizie.action</param>
+       			</result>
+            <result name="success" type="tiles">/viewNotizia.tiles</result>   
+        </action>
+        <action name="cancellaNotizia"
+            class="com.reply.editoriale.action.DeleteNotiziaAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="error" type="redirectAction">
+       				<param name="actionName">viewListaNotizie.action</param>
+       			</result>
+       			<result name="success" type="redirectAction">
+       				<param name="actionName">viewListaNotizie.action</param>
+       			</result>
+   		</action>
+   		<action name="viewUpdateNotizia"
+            class="com.reply.editoriale.action.viewModificaNotiziaAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="error" type="redirectAction">
+       				<param name="actionName">viewListaNotizie.action</param>
+       			</result>
+            <result name="success" type="tiles">/modificaNotiziaForm.tiles</result>
+        </action>
+        <action name="updateNotizia"
+            class="com.reply.editoriale.action.RegistraModificaNotiziaAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="success" type="redirectAction">
+       				<param name="actionName">viewListaNotizie.action</param>
+       			</result>
+            	<result name="error" type="tiles">/modificaNotiziaForm.tiles</result>
+            	<result name="input" type="tiles">/modificaNotiziaForm.tiles</result>
+        </action>
+        <action name="annullaNotizia"
+            class="com.reply.editoriale.action.AnnullaModificaAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="success" type="redirectAction">
+       				<param name="actionName">viewListaNotizie.action</param>
+       			</result>
+            	<result name="error" type="tiles">/modificaNotiziaForm.tiles</result>
+            	<result name="input" type="tiles">/modificaNotiziaForm.tiles</result>
+        </action>
+        <action name="annullaListaNotizia"
+            class="com.reply.editoriale.action.AnnullaListaAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="success" type="redirectAction">
+       				<param name="actionName">viewListaNotizie.action</param>
+       			</result>
+       			<result name="error" type="redirectAction">
+       				<param name="actionName">viewListaNotizie.action</param>
+       			</result>
+            	
+        </action>
+        <action name="trasmettiNotizia"
+            class="com.reply.editoriale.action.TrasmettiNotiziaAction">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="success" type="redirectAction">
+       				<param name="actionName">viewListaNotizie.action</param>
+       			</result>
+       			<result name="error" type="redirectAction">
+       				<param name="actionName">viewListaNotizie.action</param>
+       			</result>
+        </action>
+        <action name="viewListaNotiziaTot"
+            class="com.reply.editoriale.action.ViewListaNotiziaTot">
+            <interceptor-ref name="loginStack"></interceptor-ref>
+            <interceptor-ref name="store">
+           		<param name="operationMode">STORE</param>
+       		</interceptor-ref>
+   			<interceptor-ref name="defaultStack">
+   			</interceptor-ref>
+       			<result name="success" type="redirectAction">
+       				<param name="actionName">viewListaNotizie.action?pag=1</param>
+       			</result>  
+        </action>
+        
+        
+    </package>  
+</struts>
