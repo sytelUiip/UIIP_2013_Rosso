@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<!-- INIZIO BASE FRAME -->
+
+	<definition name="baseLayout" template="/baseFrame/baseFrame.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/blocks/header.jsp" />
+		<put-attribute name="footer" value="/blocks/footer.jsp" />
+        <put-attribute name="menu" value="/blocks/Menu.jsp" />
+        <put-attribute name="right" value="/blocks/right.jsp" />
+        <put-attribute name="body" value="" />
+	</definition>
+	<definition name="/welcome.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Welcome" />
+        <put-attribute name="body" value="/Welcome.jsp" />
+    </definition>
+    <definition name="/login.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Login" />
+        <put-attribute name="body" value="/Login.jsp" />
+    </definition>
+    <definition name="/insertAccountForm.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Inserisci nuovo Account" />
+        <put-attribute name="body" value="/insertAccountForm.jsp" />
+    </definition>
+    <definition name="/listaAccount.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Lista Account Registrato" />
+        <put-attribute name="body" value="/listaAccount.jsp" />
+    </definition>
+    <definition name="/visualizzaAccount.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Dettagli Account" />
+        <put-attribute name="body" value="/visualAccount.jsp" />
+    </definition>
+    <definition name="/modificaAccountForm.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Modifica Account" />
+        <put-attribute name="body" value="/modificaAccount.jsp" />
+    </definition>
+    <definition name="/gestoreAccount.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Gestione ruoli Account" />
+        <put-attribute name="body" value="/gestoreAccount.jsp" />
+    </definition>
+    <definition name="/insertNotiziaForm.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Inserisci Notizia" />
+        <put-attribute name="body" value="/InsertNewNotiziaForm.jsp" />
+    </definition>
+    <definition name="/viewNotizia.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Dettagli Notizia" />
+        <put-attribute name="body" value="/ViewNotizia.jsp" />
+    </definition>
+    <definition name="/listaNotizie.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Lista Notizie" />
+        <put-attribute name="body" value="/ListaNotizie.jsp" />
+    </definition>
+     <definition name="/modificaNotiziaForm.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Modifica Notizia" />
+        <put-attribute name="body" value="/UpdateNotiziaForm.jsp" />
+    </definition>
+    <definition name="/contatti.tiles" extends="baseLayout">
+        <put-attribute name="title" value="Contatti gruppo Rosso" />
+        <put-attribute name="body" value="/Contatti.jsp" />
+    </definition>
+    
+    
+    
+</tiles-definitions>
+

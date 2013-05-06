@@ -1,0 +1,420 @@
+6-mag-2013 20.21.37 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.23 using APR version 1.4.6.
+6-mag-2013 20.21.37 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+6-mag-2013 20.21.38 org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized with version OpenSSL 1.0.0g 18 Jan 2012
+6-mag-2013 20.21.38 org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+6-mag-2013 20.21.38 org.apache.coyote.ajp.AjpAprProtocol init
+INFO: Initializing Coyote AJP/1.3 on ajp-8009
+6-mag-2013 20.21.38 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1367 ms
+6-mag-2013 20.21.38 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+6-mag-2013 20.21.38 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.36
+6-mag-2013 20.21.38 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+6-mag-2013 20.21.39 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+6-mag-2013 20.21.39 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive PresLayerEd.war
+6-mag-2013 20.21.46 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive WebSBLGestLogin.war
+6-mag-2013 20.21.49 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+6-mag-2013 20.21.49 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+6-mag-2013 20.21.49 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+6-mag-2013 20.21.49 org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+6-mag-2013 20.21.49 org.apache.coyote.ajp.AjpAprProtocol start
+INFO: Starting Coyote AJP/1.3 on ajp-8009
+6-mag-2013 20.21.49 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11170 ms
+6-mag-2013 20.22.31 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 20.22.31 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 20.22.31 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 20.22.31 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@109f7c6]) and a value of type [long[]] (value [[J@169fc2f]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 20.22.31 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@12bb303]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@1f58da2]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 20.22.31 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@109f7c6]) and a value of type [long[]] (value [[J@25aa8f]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 20.22.31 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@109f7c6]) and a value of type [long[]] (value [[J@e0d1f6]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 20.22.31 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@109f7c6]) and a value of type [long[]] (value [[J@1f87414]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 20.22.31 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@12bb303]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@1f58da2]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 20.22.32 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/PresLayerEd]
+6-mag-2013 20.22.36 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/WebSBLGestLogin] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6-mag-2013 20.22.36 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/WebSBLGestLogin] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@e2964a]) and a value of type [long[]] (value [[J@1f905f7]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 20.22.36 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.log4j.spi.NOPLoggerRepository.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1566)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1526)
+	at org.apache.log4j.LogManager.getLoggerRepository(LogManager.java:175)
+	at org.apache.log4j.LogManager.getLogger(LogManager.java:199)
+	at org.apache.log4j.Logger.getLogger(Logger.java:105)
+	at org.apache.commons.logging.impl.Log4JLogger.getLogger(Log4JLogger.java:289)
+	at org.apache.commons.logging.impl.Log4JLogger.<init>(Log4JLogger.java:109)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.apache.commons.logging.impl.LogFactoryImpl.createLogFromClass(LogFactoryImpl.java:1116)
+	at org.apache.commons.logging.impl.LogFactoryImpl.discoverLogImplementation(LogFactoryImpl.java:914)
+	at org.apache.commons.logging.impl.LogFactoryImpl.newInstance(LogFactoryImpl.java:604)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:336)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:310)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:685)
+	at org.apache.axis2.util.OnDemandLogger.getLog(OnDemandLogger.java:53)
+	at org.apache.axis2.util.OnDemandLogger.isDebugEnabled(OnDemandLogger.java:120)
+	at org.apache.axis2.context.ConfigurationContext.shutdownModulesAndServices(ConfigurationContext.java:733)
+	at org.apache.axis2.context.ConfigurationContext.terminate(ConfigurationContext.java:775)
+	at org.apache.axis2.client.ServiceClient.cleanup(ServiceClient.java:828)
+	at org.apache.axis2.client.Stub.cleanup(Stub.java:134)
+	at org.apache.axis2.client.Stub.finalize(Stub.java:123)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:83)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:14)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:160)
+6-mag-2013 20.22.36 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.commons.logging.impl.LogFactoryImpl$3.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1566)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1526)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getParentClassLoader(LogFactoryImpl.java:700)
+	at org.apache.commons.logging.impl.LogFactoryImpl.createLogFromClass(LogFactoryImpl.java:1187)
+	at org.apache.commons.logging.impl.LogFactoryImpl.discoverLogImplementation(LogFactoryImpl.java:914)
+	at org.apache.commons.logging.impl.LogFactoryImpl.newInstance(LogFactoryImpl.java:604)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:336)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:310)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:685)
+	at org.apache.axis2.util.OnDemandLogger.getLog(OnDemandLogger.java:53)
+	at org.apache.axis2.util.OnDemandLogger.isDebugEnabled(OnDemandLogger.java:120)
+	at org.apache.axis2.context.ConfigurationContext.shutdownModulesAndServices(ConfigurationContext.java:733)
+	at org.apache.axis2.context.ConfigurationContext.terminate(ConfigurationContext.java:775)
+	at org.apache.axis2.client.ServiceClient.cleanup(ServiceClient.java:828)
+	at org.apache.axis2.client.Stub.cleanup(Stub.java:134)
+	at org.apache.axis2.client.Stub.finalize(Stub.java:123)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:83)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:14)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:160)
+6-mag-2013 20.22.37 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/WebSBLGestLogin]
+6-mag-2013 20.22.51 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive WebSBLGestLogin.war
+6-mag-2013 20.23.05 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive PresLayerEd.war
+6-mag-2013 20.46.55 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.23 using APR version 1.4.6.
+6-mag-2013 20.46.55 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+6-mag-2013 20.46.55 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.23 using APR version 1.4.6.
+6-mag-2013 20.46.55 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+6-mag-2013 20.46.56 org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized with version OpenSSL 1.0.0g 18 Jan 2012
+6-mag-2013 20.46.56 org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized with version OpenSSL 1.0.0g 18 Jan 2012
+6-mag-2013 20.46.56 org.apache.coyote.http11.Http11AprProtocol init
+GRAVE: Error initializing endpoint
+java.lang.Exception: Socket bind failed: [730048] Di norma è consentito un solo utilizzo di ogni indirizzo di socket (protocollo/indirizzo di rete/porta).  
+	at org.apache.tomcat.util.net.AprEndpoint.init(AprEndpoint.java:649)
+	at org.apache.coyote.http11.Http11AprProtocol.init(Http11AprProtocol.java:109)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1123)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:703)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:838)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:538)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:562)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:261)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+6-mag-2013 20.46.56 org.apache.catalina.core.StandardService initialize
+GRAVE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+LifecycleException:  Protocol handler initialization failed: java.lang.Exception: Socket bind failed: [730048] Di norma è consentito un solo utilizzo di ogni indirizzo di socket (protocollo/indirizzo di rete/porta).  
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1125)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:703)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:838)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:538)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:562)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:261)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+6-mag-2013 20.46.56 org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+6-mag-2013 20.46.56 org.apache.coyote.ajp.AjpAprProtocol init
+GRAVE: Error initializing endpoint
+java.lang.Exception: Socket bind failed: [730048] Di norma è consentito un solo utilizzo di ogni indirizzo di socket (protocollo/indirizzo di rete/porta).  
+	at org.apache.tomcat.util.net.AprEndpoint.init(AprEndpoint.java:649)
+	at org.apache.coyote.ajp.AjpAprProtocol.init(AjpAprProtocol.java:164)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1123)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:703)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:838)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:538)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:562)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:261)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+6-mag-2013 20.46.56 org.apache.catalina.core.StandardService initialize
+GRAVE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+LifecycleException:  Protocol handler initialization failed: java.lang.Exception: Socket bind failed: [730048] Di norma è consentito un solo utilizzo di ogni indirizzo di socket (protocollo/indirizzo di rete/porta).  
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1125)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:703)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:838)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:538)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:562)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:261)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+6-mag-2013 20.46.56 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1120 ms
+6-mag-2013 20.46.56 org.apache.coyote.ajp.AjpAprProtocol init
+INFO: Initializing Coyote AJP/1.3 on ajp-8009
+6-mag-2013 20.46.56 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1122 ms
+6-mag-2013 20.46.56 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+6-mag-2013 20.46.56 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.36
+6-mag-2013 20.46.56 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+6-mag-2013 20.46.56 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.36
+6-mag-2013 20.46.56 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+6-mag-2013 20.46.56 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+6-mag-2013 20.46.56 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+6-mag-2013 20.46.56 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive PresLayerEd.war
+6-mag-2013 20.46.59 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive WebSBLGestLogin.war
+6-mag-2013 20.47.00 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+6-mag-2013 20.47.00 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+6-mag-2013 20.47.00 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+6-mag-2013 20.47.00 org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+6-mag-2013 20.47.00 org.apache.coyote.ajp.AjpAprProtocol start
+INFO: Starting Coyote AJP/1.3 on ajp-8009
+6-mag-2013 20.47.00 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3989 ms
+6-mag-2013 21.04.57 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 21.04.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@b58e73]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@19b3d1b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.04.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@c8c3b8]) and a value of type [long[]] (value [[J@a98e77]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.04.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@b58e73]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@19b3d1b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.04.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@b58e73]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@19b3d1b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.04.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@c8c3b8]) and a value of type [long[]] (value [[J@41f871]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.04.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@b58e73]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@19b3d1b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.04.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@c8c3b8]) and a value of type [long[]] (value [[J@11df416]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.04.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@b58e73]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@19b3d1b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.04.58 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/PresLayerEd]
+6-mag-2013 21.05.16 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive PresLayerEd.war
+6-mag-2013 21.14.52 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 21.14.52 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 21.14.52 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 21.14.52 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@ff22ed]) and a value of type [long[]] (value [[J@4e33aa]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.14.52 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@21f9c0]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@93d13f]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.14.52 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@21f9c0]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@93d13f]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.14.52 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@ff22ed]) and a value of type [long[]] (value [[J@8e96fc]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.14.52 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@ff22ed]) and a value of type [long[]] (value [[J@15ab10b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.14.52 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@ff22ed]) and a value of type [long[]] (value [[J@11d6591]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.14.52 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@ff22ed]) and a value of type [long[]] (value [[J@f72499]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.14.53 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/PresLayerEd]
+6-mag-2013 21.15.04 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive PresLayerEd.war
+6-mag-2013 21.43.57 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 21.43.57 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 21.43.57 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 21.43.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@152ea24]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@89f6ae]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.43.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@152ea24]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@89f6ae]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.43.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@1a21acf]) and a value of type [long[]] (value [[J@18e2477]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.43.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@152ea24]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@89f6ae]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.43.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@1a21acf]) and a value of type [long[]] (value [[J@fc1f2c]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.43.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@1a21acf]) and a value of type [long[]] (value [[J@62bba7]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.43.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@1a21acf]) and a value of type [long[]] (value [[J@deddc]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.43.57 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@1a21acf]) and a value of type [long[]] (value [[J@7b34b4]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 21.43.57 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/PresLayerEd]
+6-mag-2013 21.44.48 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive PresLayerEd.war
+6-mag-2013 22.47.15 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.23 using APR version 1.4.6.
+6-mag-2013 22.47.15 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+6-mag-2013 22.47.15 org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized with version OpenSSL 1.0.0g 18 Jan 2012
+6-mag-2013 22.47.15 org.apache.coyote.http11.Http11AprProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+6-mag-2013 22.47.15 org.apache.coyote.ajp.AjpAprProtocol init
+INFO: Initializing Coyote AJP/1.3 on ajp-8009
+6-mag-2013 22.47.15 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 879 ms
+6-mag-2013 22.47.15 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+6-mag-2013 22.47.15 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.36
+6-mag-2013 22.47.15 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+6-mag-2013 22.47.16 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+6-mag-2013 22.47.16 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive PresLayerEd.war
+6-mag-2013 22.47.17 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive WebSBLGestLogin.war
+6-mag-2013 22.47.18 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+6-mag-2013 22.47.18 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+6-mag-2013 22.47.18 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+6-mag-2013 22.47.18 org.apache.coyote.http11.Http11AprProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+6-mag-2013 22.47.18 org.apache.coyote.ajp.AjpAprProtocol start
+INFO: Starting Coyote AJP/1.3 on ajp-8009
+6-mag-2013 22.47.18 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2657 ms
+6-mag-2013 22.48.03 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 22.48.03 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 22.48.03 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/PresLayerEd] appears to have started a thread named [Scheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+6-mag-2013 22.48.03 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9ba045]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@1371566]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 22.48.03 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@15e0638]) and a value of type [long[]] (value [[J@1ea6a1c]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 22.48.03 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@15e0638]) and a value of type [long[]] (value [[J@dc64a2]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 22.48.03 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@15e0638]) and a value of type [long[]] (value [[J@152f43b]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 22.48.03 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@15e0638]) and a value of type [long[]] (value [[J@1205d8d]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 22.48.03 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/PresLayerEd] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9ba045]) and a value of type [com.opensymphony.xwork2.inject.ContainerImpl] (value [com.opensymphony.xwork2.inject.ContainerImpl@1371566]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 22.48.04 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/PresLayerEd]
+6-mag-2013 22.48.10 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+GRAVE: The web application [/WebSBLGestLogin] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6-mag-2013 22.48.10 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+GRAVE: The web application [/WebSBLGestLogin] created a ThreadLocal with key of type [org.apache.axiom.util.UIDGenerator$1] (value [org.apache.axiom.util.UIDGenerator$1@633b88]) and a value of type [long[]] (value [[J@d9799d]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+6-mag-2013 22.48.10 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.log4j.spi.NOPLoggerRepository.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1566)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1526)
+	at org.apache.log4j.LogManager.getLoggerRepository(LogManager.java:175)
+	at org.apache.log4j.LogManager.getLogger(LogManager.java:199)
+	at org.apache.log4j.Logger.getLogger(Logger.java:105)
+	at org.apache.commons.logging.impl.Log4JLogger.getLogger(Log4JLogger.java:289)
+	at org.apache.commons.logging.impl.Log4JLogger.<init>(Log4JLogger.java:109)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.apache.commons.logging.impl.LogFactoryImpl.createLogFromClass(LogFactoryImpl.java:1116)
+	at org.apache.commons.logging.impl.LogFactoryImpl.discoverLogImplementation(LogFactoryImpl.java:914)
+	at org.apache.commons.logging.impl.LogFactoryImpl.newInstance(LogFactoryImpl.java:604)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:336)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:310)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:685)
+	at org.apache.axis2.util.OnDemandLogger.getLog(OnDemandLogger.java:53)
+	at org.apache.axis2.util.OnDemandLogger.isDebugEnabled(OnDemandLogger.java:120)
+	at org.apache.axis2.context.ConfigurationContext.shutdownModulesAndServices(ConfigurationContext.java:733)
+	at org.apache.axis2.context.ConfigurationContext.terminate(ConfigurationContext.java:775)
+	at org.apache.axis2.client.ServiceClient.cleanup(ServiceClient.java:828)
+	at org.apache.axis2.client.ServiceClient.finalize(ServiceClient.java:805)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:83)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:14)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:160)
+6-mag-2013 22.48.10 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.commons.logging.impl.LogFactoryImpl$3.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1566)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1526)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getParentClassLoader(LogFactoryImpl.java:700)
+	at org.apache.commons.logging.impl.LogFactoryImpl.createLogFromClass(LogFactoryImpl.java:1187)
+	at org.apache.commons.logging.impl.LogFactoryImpl.discoverLogImplementation(LogFactoryImpl.java:914)
+	at org.apache.commons.logging.impl.LogFactoryImpl.newInstance(LogFactoryImpl.java:604)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:336)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:310)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:685)
+	at org.apache.axis2.util.OnDemandLogger.getLog(OnDemandLogger.java:53)
+	at org.apache.axis2.util.OnDemandLogger.isDebugEnabled(OnDemandLogger.java:120)
+	at org.apache.axis2.context.ConfigurationContext.shutdownModulesAndServices(ConfigurationContext.java:733)
+	at org.apache.axis2.context.ConfigurationContext.terminate(ConfigurationContext.java:775)
+	at org.apache.axis2.client.ServiceClient.cleanup(ServiceClient.java:828)
+	at org.apache.axis2.client.ServiceClient.finalize(ServiceClient.java:805)
+	at java.lang.ref.Finalizer.invokeFinalizeMethod(Native Method)
+	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:83)
+	at java.lang.ref.Finalizer.access$100(Finalizer.java:14)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:160)
+6-mag-2013 22.48.11 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/WebSBLGestLogin]
+6-mag-2013 22.50.33 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive WebSBLGestLogin.war
+6-mag-2013 22.50.52 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive PresLayerEd.war
