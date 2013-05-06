@@ -1,0 +1,12 @@
+apr 22, 2013 11:25:07 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+apr 22, 2013 11:25:07 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+apr 22, 2013 11:25:07 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:50:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+apr 22, 2013 11:51:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: undeploy: Undeploying web application at '/WebSBLGestLogin'
+apr 22, 2013 11:51:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
