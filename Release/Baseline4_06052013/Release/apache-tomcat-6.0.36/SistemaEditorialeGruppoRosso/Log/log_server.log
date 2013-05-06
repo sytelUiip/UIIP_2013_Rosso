@@ -1,0 +1,72 @@
+[ WARN] 2013-05-06 22:50:34 (AxisAdminServlet.java:init:39)
+Web application uses org.apache.axis2.transport.http.AxisAdminServlet; please update web.xml to use org.apache.axis2.webapp.AxisAdminServlet instead
+
+[ INFO] 2013-05-06 22:50:34 (ClusterBuilder.java:buildCluster:63)
+Clustering has been disabled
+
+[ INFO] 2013-05-06 22:50:34 (ModuleDeployer.java:deploy:82)
+Deploying module: addressing-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/addressing-1.6.2.mar
+
+[ INFO] 2013-05-06 22:50:34 (ModuleDeployer.java:deploy:82)
+Deploying module: metadataExchange-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/mex-1.6.2.mar
+
+[ INFO] 2013-05-06 22:50:34 (ModuleDeployer.java:deploy:82)
+Deploying module: mtompolicy-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/mtompolicy-1.6.2.mar
+
+[ INFO] 2013-05-06 22:50:34 (ModuleDeployer.java:deploy:82)
+Deploying module: ping-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/ping-1.6.2.mar
+
+[ INFO] 2013-05-06 22:50:34 (ModuleDeployer.java:deploy:82)
+Deploying module: script-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/scripting-1.6.2.mar
+
+[ INFO] 2013-05-06 22:50:34 (ModuleDeployer.java:deploy:82)
+Deploying module: soapmonitor-1.6.2 - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/modules/soapmonitor-1.6.2.mar
+
+[ INFO] 2013-05-06 22:50:34 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: GestoreAccountServ - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/GestoreAccountServ/
+
+[ INFO] 2013-05-06 22:50:35 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: GestoreLogin - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/GestoreLogin/
+
+[ INFO] 2013-05-06 22:50:35 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: GestoreNotiziaBatch - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/GestoreNotiziaBatch/
+
+[ INFO] 2013-05-06 22:50:35 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: gestoreNotiziaS - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/gestoreNotiziaS/
+
+[ INFO] 2013-05-06 22:50:35 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: GestoreNotiziaServ - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/GestoreNotiziaServ/
+
+[ INFO] 2013-05-06 22:50:35 (DeploymentEngine.java:addServiceGroup:617)
+Deploying Web service: version.aar - file:/C:/apache-tomcat-6.0.36/webapps/WebSBLGestLogin/WEB-INF/services/version.aar
+
+[ WARN] 2013-05-06 22:50:35 (OnDemandLogger.java:warn:165)
+No transportReceiver for org.apache.axis2.transport.http.AxisServletListener found. An instance for HTTP will be configured automatically. Please update your axis2.xml file!
+
+[ INFO] 2013-05-06 22:51:15 (DaoImpl.java:executeLogin:40)
+executeLogin(String, String) - La connessione al database per il controllo login è riuscita.
+
+[ INFO] 2013-05-06 22:51:15 (DaoImpl.java:executeLogin:79)
+executeLogin(String, String) - L'utente admin@aa.a è presente nel database e può effettuare il login.
+
+[ INFO] 2013-05-06 22:51:15 (DaoImpl.java:executeLogin:146)
+executeLogin(String, String) - La connessione al Database per il login è stata chiusa con successo.
+
+[ INFO] 2013-05-06 22:51:15 (DaoImpl.java:caricaAccount:159)
+caricaAccount(String) - La connessione al DB per la ricerca dell'account admin@aa.a è andata a buon fine
+
+[ INFO] 2013-05-06 22:51:15 (DaoImpl.java:executeListaNotizie:830)
+executeListaNotizie(String, String, String, int, int) - La procedura associata alla visualizzazione della lista di notizie è andata a buon fine.
+
+[ INFO] 2013-05-06 22:51:15 (DaoImpl.java:caricaAccount:159)
+caricaAccount(String) - La connessione al DB per la ricerca dell'account admin@aa.a è andata a buon fine
+
+[ INFO] 2013-05-06 22:51:15 (DaoImpl.java:executeListaNotizie:830)
+executeListaNotizie(String, String, String, int, int) - La procedura associata alla visualizzazione della lista di notizie è andata a buon fine.
+
+[ INFO] 2013-05-06 22:51:53 (DaoImpl.java:caricaAccount:159)
+caricaAccount(String) - La connessione al DB per la ricerca dell'account admin@aa.a è andata a buon fine
+
+[ INFO] 2013-05-06 22:51:53 (DaoImpl.java:executeListaNotizie:830)
+executeListaNotizie(String, String, String, int, int) - La procedura associata alla visualizzazione della lista di notizie è andata a buon fine.
+

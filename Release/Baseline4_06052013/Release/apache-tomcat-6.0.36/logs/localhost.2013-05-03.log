@@ -1,0 +1,74 @@
+3-mag-2013 22.54.50 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+3-mag-2013 22.54.50 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+3-mag-2013 22.56.14 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Quartz Initializer Servlet loaded, initializing Scheduler...
+3-mag-2013 22.56.14 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Scheduler has been started...
+3-mag-2013 22.56.14 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+3-mag-2013 22.57.56 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+3-mag-2013 22.57.56 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+3-mag-2013 22.57.56 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Quartz Scheduler successful shutdown.
+3-mag-2013 23.01.47 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Quartz Initializer Servlet loaded, initializing Scheduler...
+3-mag-2013 23.01.47 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Scheduler has been started...
+3-mag-2013 23.01.47 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+3-mag-2013 23.01.49 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+3-mag-2013 23.01.49 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+3-mag-2013 23.05.33 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+3-mag-2013 23.05.33 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+3-mag-2013 23.05.33 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Quartz Scheduler successful shutdown.
+3-mag-2013 23.23.13 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Quartz Initializer Servlet loaded, initializing Scheduler...
+3-mag-2013 23.23.14 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Scheduler has been started...
+3-mag-2013 23.23.14 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+3-mag-2013 23.23.16 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+3-mag-2013 23.23.16 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+3-mag-2013 23.24.14 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Quartz Scheduler successful shutdown.
+3-mag-2013 23.27.38 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Quartz Initializer Servlet loaded, initializing Scheduler...
+3-mag-2013 23.27.38 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Scheduler has been started...
+3-mag-2013 23.27.38 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+3-mag-2013 23.29.52 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+3-mag-2013 23.29.52 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+3-mag-2013 23.29.52 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Quartz Scheduler successful shutdown.
+3-mag-2013 23.31.31 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Quartz Initializer Servlet loaded, initializing Scheduler...
+3-mag-2013 23.31.31 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Scheduler has been started...
+3-mag-2013 23.31.31 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+3-mag-2013 23.31.33 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+3-mag-2013 23.31.33 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+3-mag-2013 23.32.13 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Quartz Scheduler successful shutdown.
+3-mag-2013 23.32.54 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Quartz Initializer Servlet loaded, initializing Scheduler...
+3-mag-2013 23.32.54 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Scheduler has been started...
+3-mag-2013 23.32.54 org.apache.catalina.core.ApplicationContext log
+INFO: QuartzInitializer: Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
