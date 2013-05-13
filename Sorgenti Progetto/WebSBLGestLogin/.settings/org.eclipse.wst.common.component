@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="WebSBLGestLogin">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="DaoIntEd.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DaoIntEd/DaoIntEd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="BlEd.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/BlEd/BlEd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="DTOEd.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DTOEd/DTOEd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="BliEd.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/BliEd/BliEd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="DaoEd.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DaoEd/DaoEd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/eclipseJunoRS2/LibreriaServer/ojdbc6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Transmitter.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Transmitter/Transmitter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Receiver.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Receiver/Receiver">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/WebSBLGestLogin/build/classes"/>
+        <property name="context-root" value="WebSBLGestLogin"/>
+    </wb-module>
+</project-modules>
